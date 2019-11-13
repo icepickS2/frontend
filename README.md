@@ -35,9 +35,3 @@ npm install react-native-screens react-navigation react-navigation-stack react-n
 ```bash
 npm install immer react-redux redux redux-actions redux-devtools-extension redux-saga --save
 ```
-
-## auth
-
-```bash
-
-```

@@ -1,8 +1,8 @@
-import React from "react"
+import React from 'react'
+import SidebarComponent from './Sidebar'
 
-import SidebarComponent from "./Sidebar"
-const Sidebar = (props) => {
-  return <SidebarComponent props={props} />
+const Sidebar = ({ navigation }) => {
+    return <SidebarComponent navigation={navigation} />
 }
 
 export default Sidebar

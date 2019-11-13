@@ -1,11 +1,11 @@
-import React from "react"
-import TextRead from "./element/TextRead"
-import PhotoRead from "./element/PhotoRead"
+import React from "react";
+import TextRead from "./element/TextRead";
+import PhotoRead from "./element/PhotoRead";
 const BbsRead = ({ navigation, data }) => {
   return (
     <>
-      <PhotoRead />
+      <TextRead />
     </>
-  )
-}
-export default BbsRead
+  );
+};
+export default BbsRead;
