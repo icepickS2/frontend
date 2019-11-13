@@ -3,8 +3,10 @@ import { View, TouchableOpacity, StyleSheet } from 'react-native'
 import { AntDesign } from '@expo/vector-icons'
 import { Text } from 'react-native-elements'
 const SidebarItem = ({ navigation, title, iconName, location, fn }) => {
+    const fntest = fn ? fn : () => {}
+
     const handleOnPress = () => {
-        return location ? navigation.navigate(location) : fn()
+        return location ? navigation.navigate(location) : fntest()
     }
 
     return (

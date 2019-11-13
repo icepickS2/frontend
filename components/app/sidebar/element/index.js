@@ -1,11 +1,13 @@
-export default Elements = (teams) => {
-    return [home, { HeaderTitle: 'Team', lists: [...teams, createTeam] }, etc]
-}
+// export default elements
 
-const home = { HeaderTitle: 'HOME', lists: [{ title: 'Home', location: 'Home', iconName: 'home' }] }
+// const elements = (teams) => {
+//     return [home, { HeaderTitle: 'Team', lists: [...teams, createTeam] }, etc]
+// }
 
-const createTeam = { title: 'create team', location: 'TeamCreate', iconName: 'plus' }
-const etc = {
+export const home = { HeaderTitle: 'HOME', lists: [{ title: 'Home', location: 'Home', iconName: 'home' }] }
+
+export const createTeam = { title: 'create team', location: 'TeamCreate', iconName: 'plus' }
+export const etc = {
     HeaderTitle: 'ETC',
     lists: [
         { title: '활동기록', location: 'Activity', iconName: 'dashboard' },
