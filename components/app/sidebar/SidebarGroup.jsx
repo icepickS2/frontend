@@ -19,7 +19,7 @@ const SidebarGroup = ({ value, navigation }) => {
 }
 
 const styles = StyleSheet.create({
-    Container: { borderTopWidth: 0.2, color: '#C7C6C8', paddingTop: 10 },
+    Container: { paddingTop: 10 },
 })
 
 export default SidebarGroup

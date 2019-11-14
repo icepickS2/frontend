@@ -22,6 +22,7 @@
         "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
         "react-native-cn-richtext-editor": "^1.0.42",
         "react-native-elements": "^1.2.7",
+        "react-native-floating-action": "^1.19.1",
         "react-native-gesture-handler": "^1.5.0",
         "react-native-keyboard-spacer": "^0.4.1",
         "react-native-navigation-drawer-layout": "0.0.7",

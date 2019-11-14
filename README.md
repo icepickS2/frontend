@@ -16,6 +16,7 @@ npm install react-native-gesture-handler react-native-reanimated --save
 ```bash
 npm install react-native-elements @expo/vector-icons --save
 npm install prop-types  expo-font expo-asset --save
+npm install react-native-floating-action --save
 ```
 
 ## common

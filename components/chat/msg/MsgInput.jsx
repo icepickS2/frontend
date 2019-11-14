@@ -18,10 +18,10 @@ const MsgInput = ({ params }) => (
                         height: 50,
                         width: Dimensions.get('window').width - 80,
                     }}
-                    placeholderStyle={{
-                        color: 'transparent',
-                        fontSize: 30,
-                    }}
+                    // placeholderStyle={{
+                    //     color: 'transparent',
+                    //     fontSize: 30,
+                    // }}
                 />
             </View>
         </Footer>
